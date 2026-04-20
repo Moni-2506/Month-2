@@ -1,0 +1,15 @@
+This project analyzes Netflix content to identify trends in movies and TV shows.
+
+First, I cleaned the dataset by handling missing values and converting date columns into datetime format.
+Then, I performed feature engineering by creating variables like content_type, release_decade, and extracting year-wise data.
+
+In the visualization phase:
+- I used a pie chart to compare Movies vs TV Shows.
+- A line chart shows rapid growth of content after 2015.
+- Bar charts highlight top genres like Drama and Comedy.
+- A heatmap shows which countries produce the most content.
+
+From the analysis, I found that Netflix is heavily movie-focused but is increasingly investing in TV shows.
+Also, content production is concentrated in a few countries like the US and India.
+
+Finally, I built a simple prediction model which suggests content will continue growing in the next 2 years.
